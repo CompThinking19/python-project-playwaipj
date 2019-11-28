@@ -1,21 +1,28 @@
+#!/usr/bin/env python3.6
 import json
 import time
 import random
 
 # This is our thinker function which utilizes the random module to return a string to the while loop.
 def thinker():
-    r = random.randint(0, 10)
+    r = random.randint(0, 9)
 
     if r < 4:
         adjective = random.choice(adjectives)
         # Logic to determine the usage of `A` or `An`.
         article = 'A'
-        if adjective[0] in "aeiouAEIOU":
+        if adjective[0] in 'aeiouAEIOU':
             article += 'n'
         return f"{ article } { adjective } { random.choice(animals) }"
     if r < 7:
         quote = random.choice(quotes)
-        return f"{ quote['quote'] } - { quote['name'] } "
+        return f"{ quote['quote'] } - { quote['name'] }"
+
+    if r == 8:
+        r2 = random.randint(0, 5)
+        # https://asciiart.website/index.php?art=holiday/thanksgiving
+        with open(f'thankscii/{ r2 }', 'r') as f:
+            return f.read()
 
     return f"{ random.choice(todo) }"
 
@@ -61,7 +68,7 @@ print("""
 try:
     while True:
         print(thinker())
-        time.sleep(random.randint(0, 3))
+        time.sleep(random.randint(0, 4))
 # Graceful termination
 except KeyboardInterrupt:
     print("\nKeyboard Interrupt found. Exiting...")

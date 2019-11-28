@@ -1,5 +1,7 @@
 # ThoughtBot
 
+## Thanksgiving Edition.
+
 - This project will be using randomization to generate thoughts. Most of the generated thoughts may not make sense, but that's not different from how thoughts work in reality.
 
 - Currently the random thoughts are generated using datasets stored using json files with adjectives from `adjectives.json` and animals from `animals.json` found on the internet, I will try to switch some things up to make the thoughts more interesting and realistic.
@@ -9,6 +11,8 @@
 - Using quotes found online. Stored in `quotes.json`.
 
 - I might be able to make a website for this project. I'll need to learn some javascript for that first.
+
+- Added ASCII art for thanksgiving.
 
 ### TODO
 
@@ -28,3 +32,4 @@
 - adjectives.json https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go
 - quotes.json     https://gist.github.com/dmakk767/9375ff01aff76f1788aead1df9a66338
 - figlet          http://www.figlet.org/
+- ASCII art       https://asciiart.website/index.php?art=holiday/thanksgiving
