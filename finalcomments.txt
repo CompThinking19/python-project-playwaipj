@@ -1,0 +1,11 @@
+Comments
+Code is documented throughout, but there's not much of a sense of "why" and several key places seem to be missing a sense of "what", wither. I am, however, pleased that you documented your data sources in the code.
+
+Code Quality
+We've discussed this in person, but I think the code quality here is generally strong. There were no errors while running it once I knew the correct version of Python to use.
+
+Ambition
+This category of this project is something I am not sure we've ever managed to be wholly clear on. I really don't understand how the thoughts you've gathered here and their printing to the screen really answers the prompt given for the assignment. But the quotes and things you gathered were often interesting in themselves. Also, no project narrative was present.
+
+Aesthetics
+I really appreciated the ASCII art that started out the program, and like I said the quotes themselves were often interesting. You also seem to have accomplished what you were attempting in your README. Some ability for user interaction would have been nice, however.
